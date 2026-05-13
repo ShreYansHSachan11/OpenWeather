@@ -1,4 +1,4 @@
-# Weather Dashboard
+# OpenWeather
 
 A React-based weather dashboard application that provides real-time weather information and 5-day forecasts for cities worldwide.
 
@@ -133,9 +133,6 @@ The application uses the OpenWeatherMap API:
 - Current Weather API: `/weather`
 - 5-Day Forecast API: `/forecast`
 
-## License
-
-MIT
 
 ## Contributing
 
