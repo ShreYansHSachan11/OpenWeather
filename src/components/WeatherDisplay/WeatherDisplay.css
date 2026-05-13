@@ -1,0 +1,13 @@
+.weather-display {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .weather-display {
+    padding: 1.5rem 1rem;
+  }
+}

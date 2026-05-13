@@ -1,0 +1,44 @@
+.forecast-display {
+  width: 100%;
+}
+
+.forecast-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+/* Dark theme support */
+[data-theme='dark'] .forecast-title {
+  color: #ecf0f1;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .forecast-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .forecast-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .forecast-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .forecast-title {
+    font-size: 1.3rem;
+  }
+}

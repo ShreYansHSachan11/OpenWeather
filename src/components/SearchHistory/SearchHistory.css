@@ -1,0 +1,75 @@
+.search-history {
+  width: 100%;
+  max-width: 600px;
+  margin: 1.5rem auto 0;
+}
+
+.search-history-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #7f8c8d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem;
+}
+
+.search-history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.search-history-item {
+  margin: 0;
+}
+
+.search-history-button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: #3498db;
+  background-color: transparent;
+  border: 1px solid #3498db;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.search-history-button:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.search-history-button:focus {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+
+.search-history-button:active {
+  transform: scale(0.98);
+}
+
+/* Dark theme support */
+[data-theme='dark'] .search-history-title {
+  color: #95a5a6;
+}
+
+[data-theme='dark'] .search-history-button {
+  color: #5dade2;
+  border-color: #5dade2;
+}
+
+[data-theme='dark'] .search-history-button:hover {
+  background-color: #5dade2;
+  color: #2c3e50;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .search-history-button {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

@@ -1,0 +1,81 @@
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  min-height: 400px;
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.empty-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.empty-state-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.empty-message {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.empty-state-message {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.empty-hint {
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.empty-state-instruction {
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Dark theme support */
+[data-theme='dark'] .empty-title {
+  color: #ecf0f1;
+}
+
+[data-theme='dark'] .empty-state-title {
+  color: #ecf0f1;
+}
+
+[data-theme='dark'] .empty-message {
+  color: #bdc3c7;
+}
+
+[data-theme='dark'] .empty-state-message {
+  color: #bdc3c7;
+}
+
+[data-theme='dark'] .empty-hint {
+  color: #95a5a6;
+}
+
+[data-theme='dark'] .empty-state-instruction {
+  color: #95a5a6;
+}
