@@ -40,3 +40,4 @@ build
 
 .kiro/
 setup.md
+.gitignore
